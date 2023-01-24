@@ -161,6 +161,17 @@ footer > p{
     font-family: var(--fonte-paragrafo);
     font-size: 0.9em;
 }
+.linkespecial{
+    color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+}
+.linkespecial:hover{
+    text-decoration: underline;
+}
+.linkespecial::after{
+    content: ' ↗';
+}
 strong{
     color: var(--cor3);
 }
