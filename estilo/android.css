@@ -159,7 +159,7 @@ footer{
 }
 footer > p{
     font-family: var(--fonte-paragrafo);
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 .linkespecial{
     color: var(--cor3);
